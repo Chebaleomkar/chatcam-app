@@ -1,0 +1,41 @@
+/* VideoPlayer.css */
+
+/* Styles for screens smaller than 600px width */
+@media (max-width: 600px) {
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-wrapper {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .video {
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum width as needed */
+  }
+}
+
+/* Default styles for screens larger than 600px width */
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.video-wrapper {
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10px;
+  text-align: center;
+}
+
+.video-text {
+  text-align: center;
+}
+
+.video {
+  width: 550px;
+}
